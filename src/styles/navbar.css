@@ -1,0 +1,106 @@
+.menuLogoActive {
+  position: fixed;
+  height: 100px;
+  bottom:10px;
+  left: 10px;
+  opacity: 1;
+  transition: 1000ms ease;
+}
+
+.menuLogoInactive {
+  position: fixed;
+  height: 100px;
+  bottom:10px;
+  left: 10px;
+  opacity: 0.5;
+}
+
+.navActive {
+  visibility: visible;
+  opacity: 1;
+  transition: 1000ms ease;
+
+}
+
+.navInactive {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.navItemList{
+  font-size: 20px;
+}
+
+#navItem0 {
+  text-decoration: none;
+  color:#ff8b00;
+  position: fixed;
+  bottom:176px;
+  left: 10px;
+  padding: 0.17em 1.0em;
+  border-radius:2em;
+  border: #c4c4c4 solid;
+  width: 120px;
+  display: flex;
+  height: 38px;
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(102,100,120,1) 100%);
+}
+
+#navItem1 {
+  text-decoration: none;
+  color:#ff8b00;
+  position: fixed;
+  bottom:136px;
+  left: 95px;
+  padding: 0.17em 1.0em;
+  border-radius:2em;
+  border: #c4c4c4 solid;
+  width: 120px;
+  height: 38px;
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(102,100,120,1) 100%);
+}
+
+#navItem2 {
+  text-decoration: none;
+  color:#ff8b00;
+  position: fixed;
+  bottom:94px;
+  left: 150px;
+  padding: 0.17em 1.0em;
+  border-radius: 2em;
+  border: #c4c4c4 solid;
+  width: 120px;
+  text-align: center;
+  height: 38px;
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(102,100,120,1) 100%);
+}
+
+#navItem3  {
+  text-decoration: none;
+  color:#ff8b00;
+  position: fixed;
+  bottom:52px;
+  left: 170px;
+  padding: 0.17em 1.0em;
+  border-radius: 2em;
+  border: #c4c4c4 solid;
+  width: 120px;
+  text-align: center;
+  height: 38px;
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(102,100,120,1) 100%);
+}
+
+#navItem4  {
+  text-decoration: none;
+  color:#ff8b00;
+  position: fixed;
+  bottom:10px;
+  left: 180px;
+  padding: 0.17em 1.0em;
+  border-radius:2em;
+  border: #c4c4c4 solid;
+  width: 120px;
+  text-align: center;
+  height: 38px;
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(102,100,120,1) 100%);
+}
