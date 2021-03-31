@@ -11,7 +11,7 @@ const Navbar = () => {
 
   useEffect(() => {
     if (!sessionStorage.getItem('appeared')) {
-      setTimeout(() => setNavbarState(!navbarState), 2000)
+      setTimeout(() => setNavbarState(!navbarState), 4000)
       sessionStorage.setItem('appeared', true)
     }
   })
@@ -25,7 +25,7 @@ const Navbar = () => {
       <nav className={navbarState ? 'navActive' : 'navInactive'} onClick={() => setNavbarState(!navbarState)}>
         <ul className='navItemList'>
           <li>
-            <Link to='/' id='navItem0'>Главная</Link>
+            <Link to='/home' id='navItem0'>Главная</Link>
           </li>
           <li>
             <Link to='/news' id='navItem1'>Новости</Link>
