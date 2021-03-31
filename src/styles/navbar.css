@@ -4,7 +4,9 @@
   bottom:10px;
   left: 10px;
   opacity: 1;
-  transition: 1000ms ease;
+  transition: 1000ms;
+  z-index: 10;
+  cursor: pointer;
 }
 
 .menuLogoInactive {
@@ -13,22 +15,32 @@
   bottom:10px;
   left: 10px;
   opacity: 0.5;
+  z-index:10;
+  cursor: pointer;
 }
 
 .navActive {
+  position: fixed;
+  bottom: 200px;
+  left: 300px;
   visibility: visible;
   opacity: 1;
   transition: 1000ms ease;
-
+  z-index: 10;
 }
 
 .navInactive {
+  position: fixed;
+  bottom: 200px;
+  left: 300px;
   visibility: hidden;
   opacity: 0;
+  z-index: 10;
 }
 
 .navItemList{
   font-size: 20px;
+  list-style: none;
 }
 
 #navItem0 {
@@ -44,6 +56,7 @@
   display: flex;
   height: 38px;
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(102,100,120,1) 100%);
+  z-index: 10;
 }
 
 #navItem1 {
@@ -58,6 +71,7 @@
   width: 120px;
   height: 38px;
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(102,100,120,1) 100%);
+  z-index: 10;
 }
 
 #navItem2 {
@@ -73,6 +87,7 @@
   text-align: center;
   height: 38px;
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(102,100,120,1) 100%);
+  z-index: 10;
 }
 
 #navItem3  {
@@ -88,6 +103,7 @@
   text-align: center;
   height: 38px;
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(102,100,120,1) 100%);
+  z-index: 10;
 }
 
 #navItem4  {
@@ -103,4 +119,5 @@
   text-align: center;
   height: 38px;
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(102,100,120,1) 100%);
+  z-index: 10;
 }

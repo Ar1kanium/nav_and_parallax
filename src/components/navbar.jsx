@@ -1,13 +1,22 @@
-import React, { useState } from 'react'
+import React, { useState , useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/navbar.css'
 
 
 const Navbar = () => {
   
-  const [navbarState, setNavbarState] = useState(true)
+  const [navbarState, setNavbarState] = useState(false)
 
 
+
+  useEffect(() => {
+    if (!sessionStorage.getItem('appeared')) {
+      setTimeout(() => setNavbarState(!navbarState), 2000)
+      sessionStorage.setItem('appeared', true)
+    }
+  })
+
+  
 
   return (
     <>
