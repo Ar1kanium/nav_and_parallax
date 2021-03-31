@@ -4,7 +4,7 @@ import '../styles/App.css'
 const Career = () => {
 
   return(
-    <div className='fullscreen-div career'></div>
+    <div className='content'></div>
   )
 }
 

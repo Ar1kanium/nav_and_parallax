@@ -1,7 +1,7 @@
 body {
+  height: 100%;
   margin: 0;
   font-family: 'Pattaya', sans-serif;
-  text-shadow: 1px 1px 2px black;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

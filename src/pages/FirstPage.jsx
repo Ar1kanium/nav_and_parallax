@@ -6,7 +6,6 @@ const FirstPage = () => {
   let [word2, setWord2] = useState('word-inv')
   let [word3, setWord3] = useState('word-inv')
   let [word4, setWord4] = useState('word-inv')
-  let [word5, setWord5] = useState('word-inv')
 
 
   useEffect(() => {
@@ -15,7 +14,6 @@ const FirstPage = () => {
     setTimeout(()=> setWord2('word-v'), 1300)
     setTimeout(()=> setWord3('word-v'), 2100)
     setTimeout(()=> setWord4('word-v'), 2900)
-    setTimeout(()=> setWord5('word-v'), 3700)
     }
   })
 
@@ -25,8 +23,7 @@ const FirstPage = () => {
         <span className = {word1}>Нас </span> 
         <span className = {word2}>объединяет </span> 
         <span className = {word3}>общее </span>
-        <span className = {word4}>дело</span>
-        <span className = {word5}>!</span>
+        <span className = {word4}>дело!</span>
       </h1>
     </div>
   )

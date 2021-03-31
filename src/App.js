@@ -13,8 +13,8 @@ import FirstPage from './pages/FirstPage.jsx'
 function App() {
   return (
     <div className='wrapper'>
-        <Router>
-        <Navbar/>
+      <Router>
+      <Navbar/>
         <Switch>
         <Route exact path= '/'>
             <FirstPage />

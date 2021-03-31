@@ -10,6 +10,10 @@
   background: linear-gradient(to bottom, #076585, #fff);
 }
 
+.content {
+  min-height: 100vh;
+}
+
 .first-page {
   opacity: 0.8;
   background-size: cover;
@@ -25,6 +29,7 @@
   text-align: center;
   font-size: 50px;
   color: #ff8b00;
+  text-shadow: 1px 1px 2px black;
 }
 
 .word-inv {

@@ -3,7 +3,7 @@ import React from 'react'
 const SocialResponsibilites = () => {
 
   return(
-    <div className='fullscreen-div social-responsibilities'></div>
+    <div className='content'></div>
   )
 }
 
