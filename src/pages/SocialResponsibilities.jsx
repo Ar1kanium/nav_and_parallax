@@ -1,9 +1,12 @@
 import React from 'react'
+import Attic from '../components/attic.jsx'
 
 const SocialResponsibilites = () => {
 
   return(
-    <div className='content'></div>
+    <div className='content'>
+      <Attic/>
+    </div>
   )
 }
 

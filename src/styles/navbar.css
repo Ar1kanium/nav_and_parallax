@@ -57,6 +57,7 @@
   height: 38px;
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(102,100,120,1) 100%);
   z-index: 10;
+  transition: 250ms;
 }
 
 #navItem1 {
@@ -72,6 +73,7 @@
   height: 38px;
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(102,100,120,1) 100%);
   z-index: 10;
+  transition: 250ms;
 }
 
 #navItem2 {
@@ -88,6 +90,7 @@
   height: 38px;
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(102,100,120,1) 100%);
   z-index: 10;
+  transition: 250ms;
 }
 
 #navItem3  {
@@ -104,6 +107,7 @@
   height: 38px;
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(102,100,120,1) 100%);
   z-index: 10;
+  transition: 250ms;
 }
 
 #navItem4  {
@@ -120,4 +124,14 @@
   height: 38px;
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(102,100,120,1) 100%);
   z-index: 10;
+  transition: 250ms;
+}
+
+#navItem0:hover,
+#navItem1:hover,
+#navItem2:hover,
+#navItem3:hover,
+#navItem4:hover {
+  color: #ffffff;
+  transition: 250ms;
 }

@@ -1,0 +1,32 @@
+.attic {
+  display:flex;
+
+}
+
+.attic-item {
+  margin:10px;
+}
+
+.address,
+.phone,
+.mail {
+  color:#ff8b00;
+  transition: 250ms;
+}
+
+.address:hover,
+.phone:hover,
+.mail:hover {
+  color:white;
+  transition: 250ms;
+}
+
+@media (max-width: 430px) {
+  .hide-mob {
+    display: none;
+  }
+}
+
+span {
+  margin: 2px;
+}

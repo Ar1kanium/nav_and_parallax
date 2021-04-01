@@ -1,10 +1,13 @@
 import React from 'react'
+import Attic from '../components/attic.jsx'
 import '../styles/App.css'
 
 const Career = () => {
 
   return(
-    <div className='content'></div>
+    <div className='content'>
+      <Attic/>
+    </div>
   )
 }
 

@@ -8,10 +8,13 @@
 
 .wrapper {
   background: linear-gradient(to bottom, #076585, #fff);
+  width: 100%;
+  display: flex;
 }
 
 .content {
   min-height: 100vh;
+  flex-grow: 1;
 }
 
 .first-page {
@@ -21,6 +24,7 @@
   background-attachment: fixed;
   position: relative;
   min-height: 100vh;
+  min-width: 100vw;
   background-image: url(csr.jpeg);
   background-position: 85% 50%;
 }
