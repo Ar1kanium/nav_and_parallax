@@ -20,7 +20,8 @@ const Navbar = () => {
 
   return (
     <>
-      <img src={process.env.PUBLIC_URL + '/logoLight.png'} alt='menu' className={navbarState ? 'menuLogoActive' : 'menuLogoInactive'} onClick={() => setNavbarState(!navbarState)}/> 
+      <img src={process.env.PUBLIC_URL + '/logoLight.png'} alt='menu' className={navbarState ? 'menuLogoActive' : 'menuLogoInactive'} 
+      onClick={() => setNavbarState(!navbarState)}/> 
       
       <nav className={navbarState ? 'navActive' : 'navInactive'} onClick={() => setNavbarState(!navbarState)}>
         <ul className='navItemList'>

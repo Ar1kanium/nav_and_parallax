@@ -3,11 +3,13 @@ import Attic from '../components/attic.jsx'
 
 const News = () => {
 
-  return(
-    <div className='content'>
+  return (
+    <>  
       <Attic/>
-    </div>
-  )
-}
-
+      <div className='content'>
+        
+        <div></div>
+      </div>
+    </>
+  )}
 export default News
