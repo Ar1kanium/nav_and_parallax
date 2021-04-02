@@ -8,7 +8,7 @@ const Services = () => {
       <Attic/>
       <div className='content'>
         <h1>
-          Список выполняемых услуг:
+          НАШИ УСЛУГИ:
         </h1>
         <ul>
           <p>

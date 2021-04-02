@@ -11,7 +11,7 @@ const Navbar = () => {
 
   useEffect(() => {
     if (!sessionStorage.getItem('appeared')) {
-      setTimeout(() => setNavbarState(!navbarState), 4000)
+      setTimeout(() => setNavbarState(!navbarState), 2000)
       sessionStorage.setItem('appeared', true)
     }
   })

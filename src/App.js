@@ -16,9 +16,6 @@ function App() {
       <Router>
       <Navbar/>
         <Switch>
-        <Route exact path= '/'>
-            <FirstPage />
-          </Route>
           <Route path='/home'>
             <Home />
           </Route>
@@ -33,6 +30,9 @@ function App() {
           </Route>
           <Route path='/social_responsibilities'>
             <SocialResponsibilities />
+          </Route>
+          <Route path= '/'>
+            <FirstPage />
           </Route>
         </Switch>
       </Router>

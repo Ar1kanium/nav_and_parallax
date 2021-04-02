@@ -45,7 +45,7 @@
 
 #navItem0 {
   text-decoration: none;
-  color:#ff8b00;
+  color:#f69e00;
   position: fixed;
   bottom:176px;
   left: 10px;
@@ -62,10 +62,10 @@
 
 #navItem1 {
   text-decoration: none;
-  color:#ff8b00;
+  color:#f69e00;
   position: fixed;
   bottom:136px;
-  left: 95px;
+  left: 100px;
   padding: 0.17em 1.0em;
   border-radius:2em;
   border: #c4c4c4 solid;
@@ -78,7 +78,7 @@
 
 #navItem2 {
   text-decoration: none;
-  color:#ff8b00;
+  color:#f69e00;
   position: fixed;
   bottom:94px;
   left: 150px;
@@ -95,7 +95,7 @@
 
 #navItem3  {
   text-decoration: none;
-  color:#ff8b00;
+  color:#f69e00;
   position: fixed;
   bottom:52px;
   left: 170px;
@@ -112,7 +112,7 @@
 
 #navItem4  {
   text-decoration: none;
-  color:#ff8b00;
+  color:#f69e00;
   position: fixed;
   bottom:10px;
   left: 180px;

@@ -1,6 +1,6 @@
 .attic {
   display:flex;
-
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(102,100,120,1) 100%);
 }
 
 .attic-item {
@@ -9,24 +9,44 @@
 
 .address,
 .phone,
-.mail {
-  color:#ff8b00;
+.mail,
+.link-to-fp {
+  color:#f69e00;
   transition: 250ms;
+  text-decoration: none;
 }
 
 .address:hover,
 .phone:hover,
-.mail:hover {
+.mail:hover, 
+.link-to-fp:hover {
   color:white;
   transition: 250ms;
 }
 
-@media (max-width: 430px) {
+.link-to-fp {
+  position:absolute;
+  right: 5px;
+  font-size: 1.4em;
+  top:-2px;
+}
+
+.hide-mob {
+  cursor: pointer;;
+}
+
+@media (max-width: 812px) {
   .hide-mob {
     display: none;
   }
 }
 
+@media (min-width: 813px) {
+  .hide-pc {
+    display: none;
+  }
+}
+
 span {
-  margin: 2px;
+  margin: 1px;
 }
