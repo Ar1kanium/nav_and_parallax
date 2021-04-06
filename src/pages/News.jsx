@@ -12,8 +12,12 @@ const News = () => {
         <h1>
           НОВОСТИ КОМПАНИИ
         </h1>
-        <New title = {NewsData[0].title} date = {NewsData[0].date} content = {NewsData[0].content}/>
-        <New title = {NewsData[1].title} date = {NewsData[1].date} content = {NewsData[1].content}/>
+         {NewsData.map((item, index) => {
+           return (
+             <New key={index} title={item.title} date={item.date} content={item.content}/>
+           )
+         })}
+
       </div>
     </>
   )}
